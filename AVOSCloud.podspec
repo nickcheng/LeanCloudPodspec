@@ -7,9 +7,9 @@ Pod::Spec.new do |s|
   s.documentation_url = 'https://leancloud.cn/docs/api/iOS/index.html'
   s.license = { :type => 'Commercial', :text => 'Copyright 2015 LeanCloud, Inc. See https://leancloud.cn/terms.html'}
   s.author = { 'LeanCloud' => 'support@leancloud.cn' }
-  s.source = { :http => 'https://download.leancloud.cn/sdk/iOS/release-v3.1.2.6/AVOSCloud.framework.zip' }
+  s.source = { :git => 'https://github.com/nickcheng/LeanCloudPodspec.git' }
 
   s.framework = 'CFNetwork', 'SystemConfiguration', 'MobileCoreServices', 'CoreTelephony', 'CoreLocation', 'CoreGraphics', 'Security', 'QuartzCore'
   s.libraries = 'icucore', 'sqlite3'
-  s.vendored_frameworks = 'iOS/release-v3.1.2.6/AVOSCloud.framework'
+  s.vendored_frameworks = 'AVOSCloud.framework'
 end
