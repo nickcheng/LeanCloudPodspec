@@ -1,0 +1,2 @@
+# LeanCloudPodspec
+Podspec for LeanCloud
