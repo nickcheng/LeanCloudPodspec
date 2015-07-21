@@ -11,5 +11,5 @@ Pod::Spec.new do |s|
 
   s.framework = 'CFNetwork', 'SystemConfiguration', 'MobileCoreServices', 'CoreTelephony', 'CoreLocation', 'CoreGraphics', 'Security', 'QuartzCore'
   s.libraries = 'icucore', 'sqlite3'
-  s.vendored_frameworks = 'AVOSCloud.framework'
+  s.vendored_frameworks = 'iOS/release-v3.1.2.6/AVOSCloud.framework'
 end
